@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: hdb-spring-boot-demo
+  name: devops-spring-boot-demo
 projects:
   - name: inventory-spring-boot
     source:
