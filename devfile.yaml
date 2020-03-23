@@ -4,12 +4,12 @@ metadata:
 projects:
   - name: cart-spring-boot
     source:
-      location: 'http://gogs.devops.svc:3000/hdbadmin/cart-spring-boot'
+      location: 'http://gogs.devops.svc:3000/gogsadmin/cart-spring-boot'
       type: git
       branch: master
   - name: codeready
     source:
-      location: 'http://gogs.devops.svc:3000/hdbadmin/codeready'
+      location: 'http://gogs.devops.svc:3000/gogsadmin/codeready'
       type: git
       branch: master
 components:
