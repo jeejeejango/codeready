@@ -14,6 +14,9 @@ cp codeready/settings.xml /home.jboss/.m2
 ```
 
 ## First Administrator
-To enable first administrator on CodeReady Workspaces/CHE, you will need to add the following environment variable:
+To enable first administrator on CodeReady Workspaces/CHE, you will need to add the following environment variable for deployment/codeready:
+
 - name: CHE_SYSTEM_ADMIN__NAME
 - value: \<userid\>
+
+Ensure the changes are rollout to new version.
