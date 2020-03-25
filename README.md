@@ -12,3 +12,8 @@ To update maven to use the mirror maven repository setup, you will need to open 
 ```bash
 cp codeready/settings.xml /home.jboss/.m2
 ```
+
+## First Administrator
+To enable first administrator on CodeReady Workspaces/CHE, you will need to add the following environment variable:
+- name: CHE_SYSTEM_ADMIN__NAME
+- value: \<userid\>
